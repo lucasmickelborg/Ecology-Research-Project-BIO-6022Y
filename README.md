@@ -63,8 +63,15 @@
 
 # Data Sources
 # - Literature Review: Systematic searches across Web of Science, Scopus, PubMed, Google Scholar (Jan–Feb 2025).
-#   Three tables were created: Mortality, Habitat, Conservation.
+# -  Three tables were created: Mortality, Habitat, Conservation.
 # - Roadkill Data: Downloaded from NBN Atlas (The Road Lab UK dataset) on 9 January 2025 (records-2025-01-09.csv).
+## Required Data
+
+# The shapefile `CTYUA_DEC_2024_UK_BFC.shp` (used for spatial joins) is available here:  
+[Download shapefile from Google Drive](https://drive.google.com/file/d/1IBQd8FkjQPuHBb1elxbOO_uvQSXTmFSX/view?usp=sharing)
+
+# > Note: This file is excluded from the GitHub repo due to GitHub's 100MB file limit.
+# Download from link and upload into (roadkill_database/data/counties_shapefile) and ensure file name matches `CTYUA_DEC_2024_UK_BFC.shp`.
 
 # How to Reproduce the Analysis
 
